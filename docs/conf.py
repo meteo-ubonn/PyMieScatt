@@ -32,8 +32,8 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.imgmath',
-    'sphinx.ext.todo',
-    'sphinx.ext.githubpages']
+              'sphinx.ext.todo',
+              'sphinx.ext.githubpages']
 
 napoleon_google_docstring = False
 napoleon_numpy_docstring = True
@@ -158,7 +158,6 @@ texinfo_documents = [
 ]
 
 
-
-
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None, 'http://docs.scipy.org/doc/scipy/reference': None}
+intersphinx_mapping = {'https://docs.python.org/': None,
+                       'http://docs.scipy.org/doc/scipy/reference': None}

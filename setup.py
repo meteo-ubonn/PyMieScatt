@@ -1,6 +1,10 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Copyright (c) 2017-2018, Benjamin Sumlin
+# Distributed under the MIT License. See LICENSE.md for more info.
+
 """
-Documentation is hosted at http://pymiescatt.readthedocs.io/en/latest/index.html
+Documentation is hosted at https://pymiescatt.readthedocs.io
 PyMieScatt - the Python Mie Scattering Package
 Written by Benjamin Sumlin, Washington University in St. Louis
 Aerosol Impacts and Research Laboratory
