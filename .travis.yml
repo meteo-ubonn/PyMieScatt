@@ -15,4 +15,4 @@ install:
 
 script:
     # test PEP8 compliance
-    - flake8 --max-line-length=80 .
+    - flake8 --max-line-length=80 --extend-ignore=E731 .
