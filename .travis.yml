@@ -4,15 +4,19 @@ sudo: false
 language: python
 
 matrix:
-    include:
+  include:
     - python: 3.6
     - python: 3.7
       sudo: required
       dist: xenial
 
 install:
-    - pip install flake8
+  - pip install flake8 pytest
+  # test PEP8 compliance
+  - flake8 --max-line-length=80 --extend-ignore=E731 .
+  # install PyMieScatt
+  - python -m pip install .
 
 script:
-    # test PEP8 compliance
-    - flake8 --max-line-length=80 --extend-ignore=E731 .
+  # test available doctests
+  - pytest --doctest-glob='*.rst'
