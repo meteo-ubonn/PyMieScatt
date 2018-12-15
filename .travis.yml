@@ -16,7 +16,6 @@ matrix:
 
 install:
     - pip install flake8
-    - deactivate
 
 script:
     # test PEP8 compliance
